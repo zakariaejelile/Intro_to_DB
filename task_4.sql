@@ -8,5 +8,5 @@ SELECT
 FROM 
     INFORMATION_SCHEMA.COLUMNS
 WHERE 
-    TABLE_SCHEMA = alx_book_store()  -- the current database passed via mysql command
+    TABLE_SCHEMA = 'alx_book_store'  -- the current database passed via mysql command
     AND TABLE_NAME = 'books'
